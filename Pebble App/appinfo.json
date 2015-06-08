@@ -1,0 +1,73 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "Adderou",
+    "longName": "TransanPbl",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "png"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/logoadderou.png",
+                "name": "IMAGES_LOGOADDEROU_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/error.png",
+                "name": "IMAGES_ERROR_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/posicion.png",
+                "name": "IMAGES_POSICION_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/ubicacion.png",
+                "name": "IMAGES_UBICACION_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/favoritos.png",
+                "name": "IMAGES_FAVORITOS_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/transanpebble.png",
+                "menuIcon": true,
+                "name": "IMAGES_TRANSANPEBBLE_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "TransanPbl",
+    "uuid": "6da6475a-6c75-4e0a-96d6-c5fb13a4c059",
+    "versionCode": 1,
+    "versionLabel": "2.1",
+    "watchapp": {
+        "watchface": false
+    }
+}
