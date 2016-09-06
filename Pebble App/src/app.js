@@ -6,7 +6,7 @@ var Settings = require('settings');
 //Inicialización de globales
 var pos = {lat:0,long:0};
 var baseURL = 'http://dev.adderou.cl/transanpbl/busdata.php?paradero=';
-var apiKey = "AIzaSyDFxEVKnPKStiQoLMU0xm0ASXPfTzcmTno";
+var apiKey = "USE_YOUR_OWN";
 var misParaderos;
 var pos={lat:null,long:null};
 
