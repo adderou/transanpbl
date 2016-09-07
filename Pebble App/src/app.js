@@ -139,7 +139,7 @@ var paraderosCercanos = function(lat,long) {
 				var cercanos = data.results;
 				for (var i=0;i<cercanos.length;i++) {
 					console.log(JSON.stringify(i+": "+cercanos[i].name));
-					var parada = cercanos[i].name.split(" - ");
+					var parada = cercanos[i].name.split("-"); // API de Google cambió forma de mostrar nombres de paraderos.
 					listaParaderos.push({
 						title:parada[0],
 						subtitle:parada[1],
