@@ -170,5 +170,5 @@ if (!isset($_GET['sort']) || $_GET['sort']=="time") {
 
 	array_multisort($llegada, SORT_ASC, $jsonObj['servicios']);
 }
-
+header('Content-type: application/json');
 echo json_encode($jsonObj);
