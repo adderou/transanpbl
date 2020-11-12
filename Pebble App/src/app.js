@@ -5,7 +5,7 @@ var Settings = require('settings');
 
 //Inicialización de globales
 var pos = {lat:0,long:0};
-var baseURL = 'http://dev.adderou.cl/transanpbl/busdata.php?paradero=';
+var baseURL = 'http://api.xor.cl/ts/?paradero=';
 var apiKey = "USE_YOUR_OWN";
 var misParaderos;
 var pos={lat:null,long:null};
@@ -14,7 +14,7 @@ var pos={lat:null,long:null};
 
 var splashCardLocation = new UI.Card({
 				icon:'images/posicion.png',
-				title: 'TransanPbl',
+				title: 'RedStgo',
 				subtitle: 'Localizando...',
 				body: "Determinando coords. con el móvil"
 			});
@@ -48,9 +48,9 @@ var splashCardNoneLocation = new UI.Card({
 			});
 var splashCardAbout = new UI.Card({
 				icon:'images/logoadderou.png',
-				title: 'Adderou',
+				title: 'xor.cl',
 				subtitle: 'TransanPbl V2',
-				body: "Consultas, reportes, felicitaciones y quejas a dev@adderou.cl \n"
+				body: "Consultas, reportes, felicitaciones y quejas a e.redstgo@xor.cl \n"
 			});
 
 
@@ -65,7 +65,7 @@ var locationOptions = {
 
 //Configuración de Opciones Web:
 Settings.config(
-  { url: 'http://dev.adderou.cl/transanpbl/'},
+  { url: 'http://transanpbl.xor.cl/'},
   function(e) {
     console.log('Abriendo Opciones web');
     console.log("Opciones web actuales: "+JSON.stringify(e.options));
